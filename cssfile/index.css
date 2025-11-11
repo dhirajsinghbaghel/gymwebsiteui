@@ -1,0 +1,277 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #002253;
+}
+header{
+  width: 100%;
+  height: 80px;
+  border-bottom-style: solid;
+  font-family: "Fira Sans", sans-serif;
+  border-bottom-color: white;
+  border-bottom-width: 1px;
+}
+#brandlogo{
+  width: 20%;
+  height: 100%;
+  color: white;
+
+  text-align: center;
+  float: left;
+}
+#menucon{
+  width: 60%;
+  height: 100%;
+  float: left;
+}
+#btn_box{
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+#brandlogo_txt{
+  padding-top: 20px;
+  font-weight: normal;
+  font-size: 23px;
+  margin-top: 10px;
+}
+#navbar{
+  list-style: none;
+  text-align: center;
+  margin-top: 20px;
+}
+#naviteam{
+  padding: 10px;
+  display: inline-block;
+}
+#nav_link{
+  text-decoration: none;
+  font-size: 19px;
+  color: white;
+}
+#btn_box{
+
+}
+#btn_txt{
+  text-align: center;
+  color: black;
+  width: 200px;
+  padding-top: 10px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 80px;
+  height: 40px;
+  background-color: red;
+  cursor: pointer;
+}
+#btn_txt:hover{
+  color: white;
+}
+section{
+  width: 100%;
+  height: 1800px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.left_section{
+  width: 70%;
+  height:630px;
+    font-family: "Fira Sans", sans-serif;
+  padding-left: 30px;
+  padding-top: 20px;
+  float: left;
+}
+#right_section {
+  width: 30%;
+  height: 630px;
+  float: left;
+}
+#left_section_text{
+  color: white;
+  font-weight: normal;
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+#Book_free_btn{
+  width: 250px;
+  height: 30px;
+  background-color: red;
+text-align: center;
+padding: 5px;
+border-radius: 20px;
+cursor: pointer;
+}
+#Book_free_btn:hover{
+  color: white;
+}
+
+.left_section_img{
+  width: 40%;
+  height: 250px;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 30px;
+  margin-left:px;;
+  float: left;
+}
+.left_section_img:hover{
+border-color: red;
+border-width: 5px;
+
+}
+#right_section_img_box{
+  width: 90%;
+  height: 550px;
+  margin-top: 35px;
+  border-radius: 20px;
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+}
+#right_section_img_box:hover{
+  border-color: red;
+  border-width: 5px;
+
+
+}
+
+#Gym_information_con{
+  width: 100%;
+  height: 800px;
+  background-color: green;
+  float: left;
+}
+
+#left_gymInf_con{
+  width: 40%;
+  height:800px;
+  background-color: #DD3333;
+  position: relative;
+  float: left;
+}
+#left_gym_ingImage{
+  width: 542px;
+  height: 469px;
+  position: absolute;
+  top: 70px;
+right: 0;
+
+
+}
+#Right_gymInf_con{
+  width:60%;
+  height: 800px;
+  background-color: white;
+  padding-top: 100px;
+  padding-left: 80px;
+  float: left;
+}
+#AboutIcon{
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin: 5px;
+}
+#about_gym_txt{
+  float: left;
+  font-size: 22px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  margin-top: 5px;
+}
+#about_gym_txt:hover{
+  color: #DD3333;
+}
+#aboutgym_box{
+  width: 50%;
+  height: 50px;
+
+}
+#about_gym_description_box{
+  width: 90%;
+  font-family: "Fira Sans", sans-serif;
+  padding: 15px;
+  font-size: 16px;
+  color: gray;
+  text-align: justify;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+#section1con{
+  width:100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  float: left;
+}
+#left_section1{
+  width: 100%;
+  height: 450px;
+  background-image: url(../images/slide2_2.jpg);
+  background-size: 100% 100%;
+  position: relative;
+  float: left;
+}
+#left_section1_bg{
+  width: 100%;
+  height: 100%;
+background-color: rgba(22, 24, 69, 0.3);
+}
+#left_section1_text{
+  color: white;
+  font-weight: normal;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 40px;
+  position: absolute;
+  right: 110px;
+  top: 150px;
+}
+#left_section1_btn{
+  width: 15%;
+  height: 50px;
+  border-radius:30px;
+  background-color: red;
+  border-style: none;
+  color: white;
+  font-family: "Fira Sans", sans-serif;
+  position: absolute;
+  top: 270px;
+  right: 450px;
+}
+#left_section1_btn:hover{
+  background-color: inherit;
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+  cursor: pointer;
+}
+footer{
+  width: 100%;
+  height: 300px;
+  background-color: rgba(0,0,0, 0.8);
+  padding: 100px;
+}
+#contect_us_box{
+  color: white;
+  font-family: "Fira Sans", sans-serif;
+  float: left;
+  margin-left: 80px;
+}
+#contect_us_text{
+font-size: 30px;
+margin-top: 30px;
+font-weight: normal;
+margin-bottom: 20px;
+}
+#Contact_us_item{
+  margin-bottom: 15px;
+}
+#sendIcon{
+margin-right: 15px;
+  color: red;
+  font-size: 20px;
+}
